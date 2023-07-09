@@ -6,7 +6,7 @@ Contracts are deployed via underlying singleton factory, so expected addresses s
 
 ## Getting Started 
 
-1. git clone <>
+1. git clone git@github.com:Cora-Protocol/deployer.git
 2. nvm use
 3. npm install
 
