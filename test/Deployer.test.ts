@@ -47,5 +47,4 @@ describe("Deployer Tests", function () {
       hre.ethers.keccak256(bytecode)
     );
   }
-
 });

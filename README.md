@@ -15,3 +15,15 @@ Contracts are deployed via underlying singleton factory, so expected addresses s
 ```bash
 $ npm run test
 ```
+
+
+## Deployments
+
+Arbitrum Goerli
+
+0x974c1AE30321E5673f6863345B8e00E222dD3E12
+
+Arbitrum Mainnet
+
+[0x974c1AE30321E5673f6863345B8e00E222dD3E12](https://arbiscan.io/address/0x974c1ae30321e5673f6863345b8e00e222dd3e12#code
+)

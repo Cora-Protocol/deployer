@@ -2,7 +2,11 @@
   "name": "hardhat-project",
   "scripts": {
     "compile": "hardhat compile",
-    "test": "FORKING=true hardhat test"
+    "test": "FORKING=true hardhat test",
+    "deploy:arbitrum-testnet": "hardhat deploy --network arbitrum_testnet",
+    "deploy:arbitrum": "hardhat deploy --network arbitrum",
+    "deploy:arbitrum-testnet:script": "hardhat run scripts/deploy.ts --network arbitrum_testnet",
+    "deploy:arbitrum:script": "hardhat run scripts/deploy.ts --network arbitrum"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^3.0.0",
