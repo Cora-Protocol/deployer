@@ -24,8 +24,8 @@ async function main() {
 
   console.log(`Expected address: ${expectedAddress}`);
 
-  const tx = await deployerSingletonFactory.deploy(bytecode, SALT);
-  tx.wait();
+  const tx = await deployerSingletonFactory.deploy(bytecode, SALT, { gasLimit: 1000000 });
+  await tx.wait();
 
   console.log(`Deployed successfully`);
 }

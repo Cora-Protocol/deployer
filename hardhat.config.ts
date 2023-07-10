@@ -44,7 +44,8 @@ const config: HardhatUserConfig = {
       url: `https://arbitrum-goerli.infura.io/v3/${process.env.INFURA_KEY || ""}`,
       accounts: {
         mnemonic: process.env.ARBITRUM_TESTNET_MNEMONIC || "",
-      }
+      },
+      chainId: 421613
     },
     arbitrum: {
       url: `https://arbitrum-mainnet.infura.io/v3/${process.env.INFURA_KEY || ""}`,
@@ -52,6 +53,13 @@ const config: HardhatUserConfig = {
         mnemonic: process.env.ARBITRUM_MAINNET_MNEMONIC || "",
       },
       chainId: 42161
+    },
+    goerli: {
+      url: `https://goerli.infura.io/v3/${process.env.INFURA_KEY || ""}`,
+      accounts: {
+        mnemonic: process.env.ARBITRUM_TESTNET_MNEMONIC || "",
+      },
+      chainId: 5
     },
   },
   etherscan: {

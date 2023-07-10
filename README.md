@@ -13,7 +13,7 @@ Contracts are deployed via underlying singleton factory, so expected addresses s
 ## Start
 
 ```bash
-$ npm run test
+$ yarn test
 ```
 
 
@@ -21,7 +21,7 @@ $ npm run test
 
 Arbitrum Goerli
 
-0x974c1AE30321E5673f6863345B8e00E222dD3E12
+0x252158dd2e52926905284866BD39C563E8Ed1719
 
 Arbitrum Mainnet
 
